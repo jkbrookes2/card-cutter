@@ -1,0 +1,10 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#cardsContainer img {
+    width: 100px;
+    margin: 5px;
+    border: 1px solid #ccc;
+}
