@@ -1,10 +1,27 @@
-body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-}
+body { font-family: Arial, sans-serif; padding: 20px; }
+
+#cardsContainer { margin-top: 20px; }
 
 #cardsContainer img {
-    width: 100px;
-    margin: 5px;
-    border: 1px solid #ccc;
+  width: 120px;
+  margin: 5px;
+  cursor: pointer;
+  display: block;
+}
+
+.page-container {
+  display: inline-block;
+  text-align: center;
+  margin: 5px;
+  border: 1px solid #ccc;
+  padding: 3px;
+}
+
+.page-container.selected { border: 3px solid #007bff; }
+
+#slicedContainer canvas,
+#slicedContainer img {
+  max-width: 100%;
+  margin: 10px 0;
+  border: 1px solid #ccc;
 }
